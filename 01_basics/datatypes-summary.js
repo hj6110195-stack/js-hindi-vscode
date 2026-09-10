@@ -33,3 +33,32 @@ console.log("Hello world");
 }
 
 console.log(typeof anotherId);
+
+
+
+
+// ------------------------------------------------//---------------------------------------------------//
+
+// stack (Primitive), Heap (Non-Primitive)
+
+let myEmail = "hj6110195@gamil.com"
+
+let anothername = myEmail
+anothername = "Chandresh"
+
+console.log(myEmail);
+console.log(anothername);
+
+let userOne  = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Harsh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
